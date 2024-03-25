@@ -1,17 +1,15 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
-import { TopBoard } from './Components/TopBoard'
-import { MaineBoard }  from './Components/MaineBoard'
+import TopBoard from './Components/TopBoard.jsx'
+import MaineBoard from './Components/MaineBoard.jsx'
+import Extras from './Components/Extras.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <TopBoard>
-    </TopBoard>
+    <TopBoard></TopBoard>
     <MaineBoard></MaineBoard>
-    <div className="motivation">Daily Motivation here</div>
+    <Extras></Extras>
     </>
   )
 }

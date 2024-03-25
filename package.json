@@ -25,5 +25,9 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "## 3 Main Components - Top Board - Maine Board - Daily Motivation",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
 }

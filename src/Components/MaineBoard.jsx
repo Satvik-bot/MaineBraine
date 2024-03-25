@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const MaineBoard = () => {
+const MaineBoard = () => {
   return (
     <div>MaineBoard</div>
   )
 }
+
+export default MaineBoard

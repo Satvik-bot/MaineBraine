@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const TopBoard = () => {
+const TopBoard = () => {
   return (
-    <div>TopBoard</div>
+    <div>TopBoard
+
+    </div>
   )
 }
+
+export default TopBoard
